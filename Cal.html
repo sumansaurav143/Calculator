@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Cal.css">
+</head>
+
+<body>
+
+    <div class="mainDiv">
+        <div class="calcDiv">
+            <div class="divTop">
+                <span id="ansTop"></span>
+            </div>
+            <div class="divBottom">
+            <span id="exp">0</span>
+            </div>
+            <input type="text" id="input" hidden>
+        </div>
+
+        <table class="btnTable">
+            
+            <tbody>
+                <div >
+                    <div class="back"> 
+                        <div class="btnIn" id="Cal">Calculator</div>
+                        <div class="btnInput btnOp" id="clr">AC</div>
+                    </div>
+                    
+                </div>
+                <div class="back1">
+
+                </div>
+                <tr>
+                    <td>
+                        <div class="btnInput" id="block7">7</div>
+                    </td>
+                    <td>
+                        <div class="btnInput" id="block8">8</div>
+                    </td>
+                    <td>
+                        <div class="btnInput" id="block9">9</div>
+                    </td>
+                    <td>
+                        <div class="btnInput btnOp" id="divide">&divide;</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="btnInput" id="block4">4</div>
+                    </td>
+                    <td>
+                        <div class="btnInput" id="block5">5</div>
+                    </td>
+                    <td>
+                        <div class="btnInput" id="block6">6</div>
+                    </td>
+                    <td>
+                        <div class="btnInput btnOp" id="multiply">&times;</div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="btnInput" id="block1">1</div>
+                    </td>
+                    <td>
+                        <div class="btnInput" id="block2">2</div>
+                    </td>
+                    <td>
+                        <div class="btnInput" id="block3">3</div>
+                    </td>
+                    <td>
+                        <div class="btnInput btnOp" id="minus">-</div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="btnInput" id="block0">0</div>
+                    </td>
+                    <td>
+                        <div class="btnInput" id="dot">.</div>
+                    </td>
+                    <td>
+                        <div class="btnInput" id="ans">=</div>
+                    </td>
+                    <td>
+                        <div class="btnInput btnOp" id="plus">+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="Cal.js" type="text/javascript"></script>
+</html>
